@@ -70,7 +70,7 @@ public class Stack <T>{
 	}
 	
 	private Node<T> buildNode(T data){
-		Node<T> node = new Node<>();
+		Node<T> node = new Node<T>();
 		node.setData(data);
 		return node;
 	}

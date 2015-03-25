@@ -8,7 +8,7 @@ package com.lubby.stack;
 public class StackTest {
 	
 	public static void main(String[] args){
-		Stack<String> stack = new Stack<>();
+		Stack<String> stack = new Stack<String>();
 		stack.push("one");
 		stack.push("two");
 		stack.push("three");

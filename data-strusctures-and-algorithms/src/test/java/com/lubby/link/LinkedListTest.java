@@ -1,6 +1,5 @@
 package com.lubby.link;
 
-import java.util.concurrent.Executors;
 
 
 /**
@@ -10,7 +9,7 @@ import java.util.concurrent.Executors;
  */
 public class LinkedListTest {
 	public static void main(String[] args){
-		LinkedList<Integer> list = new LinkedList<>();
+		LinkedList<Integer> list = new LinkedList<Integer>();
 		list.add(1);
 		list.add(2);
 		list.add(3);

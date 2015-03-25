@@ -20,7 +20,7 @@ public class DeminalConversion {
 			throw new RuntimeException("scale can not less than or queal 0");
 		}
 		
-		Stack<Long> stack = new Stack<>();
+		Stack<Long> stack = new Stack<Long>();
 		Long num = 0L;
 		
 		while ( (num = deminalNum / scale) != 0) {

@@ -15,7 +15,7 @@ public class LinkedList<T> {
 	/** add the node to the end of the link **/
 	public Node<T> add(T data ){
 		
-		Node<T> node = new Node<>();
+		Node<T> node = new Node<T>();
 		node.setData(data);
 		node.setNext(null);
 		
@@ -105,7 +105,7 @@ public class LinkedList<T> {
 			add(data);
 		}
 		
-		Node<T> node = new Node<>();
+		Node<T> node = new Node<T>();
 		node.setData(data);
 		
 		Node<T> p = head;
